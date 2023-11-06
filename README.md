@@ -1,4 +1,4 @@
-Minimum Noise Fraction(MNF), Pixel Purity Index(PPI) y Fully Constrained Least Squares(FCLS) para la extracción y clasificación de endmembers, en el estudio de Imágenes Hiperespectrales.
+MINIMUM NOISE FRACTION(MNF), PIXEL PURITY INDEX(PPI) Y FULLY CONSTRAINED LEAST SQUARES(FCLS) PARA LA EXTRACCION Y CLASIFICACION DE ENDMEMBERS, EN EL ESTUDIO DE IMAGENES HIPERESPECTRALES.
 -----
 
 Abstract
