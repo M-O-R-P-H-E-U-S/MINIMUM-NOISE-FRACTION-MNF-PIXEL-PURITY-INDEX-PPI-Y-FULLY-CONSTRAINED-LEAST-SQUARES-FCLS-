@@ -1,1 +1,98 @@
-# Minimum-Noise-Fraction-MNF-Pixel-Purity-Index-PPI-y-Support-Vector-Machine-SVM-
+Minimum-Noise-Fraction-MNF-Pixel-Purity-Index-PPI-y-Support-Vector-Machine-SVM-
+-----
+
+Abstract
+-----
+Preprocessing techniques such as Minimum Noise Fraction (MNF) and Pixel Purity Index (PPI) that reduce
+dimensionality of the hypercube a Hyperspectral Imaging (HSI) data, a have been widely used to reduce the computational
+cost when analyzing Hyperspectral Images (HSI). Pixel Purity Index (PPI) not only reduces the spatial dimension of our
+hypercube, but also allows the extraction of endmembers, that is, it distinguishes the purest spectral signatures within each
+pixel. For the classification of endmembers extracted from our hypercube, an abundance map of each endmember was
+used, according to the Fully Constrained Least Squares (FCLS) algorithm. Finally, the spectra found in the abundance
+maps were compared with reference spectra in the spectronon pro software.
+
+Resumen
+-----
+Las técnicas de preprocesamiento, como Minimum Noise Fraction (MNF) y Pixel Purity Index(PPI) que reducen
+dimensionalidad del hipercubo de datos a Imágenes Hiperespectrales (HSI), han sido usadas ampliamente para reducir el
+costo computacional al analizar Imágenes Hiperespectrales (HSI). Píxel Purity Index(PPI) no solo nos reduce la dimensión
+espacial de nuestro hipercubo, sino que además permite la extracción de endmembers, es decir, se distingue las firmas
+espectrales mas puras dentro de cada píxel. Para la clasificación de endmembers extraídos de nuestro hipercubo, se uso un
+mapa de abundancia de cada endmember, según el algoritmo de Fully Constrained Least Squares(FCLS). Finalmente los
+espectros encontrados en los mapas de abundancia fueron comparados con espectros de referencia en el software spectronon
+pro.
+
+Index Terms— Minimum Noise Fraction (MNF), Pixel Purity Index(PPI), Fully Constrained Least Squares(FCLS),
+Hyperspectral Imaging(HSI).
+
+INTRODUCCION
+-----
+
+
+METODOS
+-----
+
+
+Minimum Noise Fraction(MNF)
+-----
+
+Minimum Noise Fraction(MNF) es una transformada lineal que consta de 2 pasos separados:
+
+* Usar el matriz de covarianza de ruido para decorrelacionar y reescalar el ruido en los datos (blanqueamiento de ruido). De esta forma, el ruido tiene varianza unitaria y no tiene correlaciones de banda a banda.
+
+* Realizar un estándar Transformación de PCA a los datos blanqueados por ruido.
+
+
+METODOLOGIA
+-----
+
+
+
+
+
+DETECCIÓN DE ENDMEMBERS
+-----
+
+
+Minimum Noise Fraction(MNF)
+-----
+
+
+
+
+Pixel Purity Index(PPI)
+-----
+
+
+CLASIFICACIÓN DE ENDMEMBERS
+-----
+
+
+Fully Constrained Least Squares(FCLS)
+-----
+
+
+
+DISCUSIÓN DE RESULTADOS
+-----
+
+
+
+
+
+
+
+
+|Componente   |  Nombre         | Número de Endmember | 
+| ----------  | --------------- |-------------------- |
+|Componente 1 |  Mesocarpio     |    Endmember 1      |   
+|Componente 2 |  Zona podrida   |    Endmember 2      |  
+|Componente 3 |  Pedunculo      |    Endmember 3      |    
+|Componente 4 |  Cascara        |    Endmember 4      |   
+|Componente 5 |  Fondo          |    Endmember 5      |   
+|Componente 6 |  Zona podrida   |    Endmember 6      |
+
+
+CONCLUSION
+-----
+
