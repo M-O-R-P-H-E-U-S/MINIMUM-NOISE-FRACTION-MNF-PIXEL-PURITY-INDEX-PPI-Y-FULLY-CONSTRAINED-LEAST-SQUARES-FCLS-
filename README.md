@@ -50,9 +50,18 @@ Minimum Noise Fraction(MNF) es una transformada lineal que consta de 2 pasos sep
 METODOLOGIA
 -----
 
+Para el registro de las imágenes hiper-espectrales, se uso una cámara Pika NIR-320(Near-Infrared) que abarca desde 900 a 1700 nm. Para su uso primero se calibra la cámara respecto a la referencia en negro, que es cuando se tiene tapada la lente de la cámara. Posteriormente se toma una referencia en blanco donde se retira la tapada de la lente de la cámara y se toma a una superficie totalmente blanca, en nuestro caso una pieza de teflón.
 
 
 
+Posteriormente se ajusta la velocidad de la plataforma donde se coloca la muestra respecto de la cámara para poder calibrar espacialmente la cámara.
+
+
+
+
+
+En el presente trabajo se registro la imágen hiper-espectral
+de una manzana (Imagen: 2) en comienzos de putrefacción
 
 DETECCIÓN DE ENDMEMBERS
 -----
@@ -115,4 +124,6 @@ DISCUSIÓN DE RESULTADOS
 
 CONCLUSION
 -----
+
+Con la metodología seguida es posible distinguir los componentes dentro de una escena multipixel. Contrastando con el promedio espectral obtenido del Datacube analizado en el software Resonon(fig: \ref{fig:Firma-Componentes.}). 
 
