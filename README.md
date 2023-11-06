@@ -32,19 +32,55 @@ Hyperspectral Imaging(HSI).
 INTRODUCCION
 -----
 
+Las imágenes hiperespectrales son una recopilación de la reflectancia sobre cada pixel en el rango del espectro
+electromagnético. Una imagen hiperespectral combina la naturaleza digital de una cámara y la naturaleza
+espectroscopia de su muestra. Una cámara de naturaleza hiperespectral adquiere la intensidad de la luz de un gran
+número de bandas espectrales contiguas. 
+
+La finalidad de estudiar las imágenes hiper-espectrales
+es obtener el espectro de una escena convertida en una imagen donde dicha imagen es representada por un cubo
+de datos que encierra una dimensión espacial y espectral. Con la finalizar de caracterizar nuestra muestra o encontrar
+objetos imperceptibles por el ojo humano. 
+
+En este sentido el análisis de toda esta información que proporcionan las imágenes hiperespectrales consumen demasiados recursos de la computadora. Por ello se ha visto la necesidad de realizar un preprocesamiento a este conjunto de datos. Siendo necesarias técnicas de reducción de dimensionalidad. Recordando que las imagenes hiperespectrales tienen dimension espacial y espectral. Se requirierontecnicas de preprocesamiento que reduscan dichas dimensiones, en la siguiente tabla se mencionan algunas de estas técnicas1:
+
+| Reduccion espectral | Reduccion espacial |
+| ------------------- | ------------------ |
+|         MNF         |          PPI       |   
+|         PCA         |          VCA       |  
+|         ICA         |          ICE       |    
+|         UBD         |          N-FINDR   |   
+
+Las imagenes hiperespectral se ven aplicadas en campos como minería, agricultura, fraude, contaminación, etc.
+
+
+Con el avance de la tecnologia se ha podido desarrollar camaras hiperespectrales que registrar una mayor cantidad de bandas contiguas del espectro de reflectancia de la escena analizada. A la misma velocidad con la que se desarrollan
+estas camaras se han visto nuevas publicaciones con nuevas tecnicas de procesamiento de imagenes hiperespectrales.
+Dichas tecnicas facilitan el camino para una amplia gama de aplicaciones [1] [2].
+
+Si bien es cierto la información contenida en los datos hiperespectrales permite la caracterización, identificación
+y clasificación de distintas muestras. Sin embargo, hay problemas críticos que deben ser considerados en la clasificación de datos hiper-espectrales, entre los cuales:
+
+1) El alto número de canales espectrales.
+2) La variabilidad espacial de la firma espectral.
 
 METODOS
 -----
-
 
 Minimum Noise Fraction(MNF)
 -----
 
 Minimum Noise Fraction(MNF) es una transformada lineal que consta de 2 pasos separados:
 
-* Usar el matriz de covarianza de ruido para decorrelacionar y reescalar el ruido en los datos (blanqueamiento de ruido). De esta forma, el ruido tiene varianza unitaria y no tiene correlaciones de banda a banda.
+1) Usar el matriz de covarianza de ruido para decorrelacionar y reescalar el ruido en los datos (blanqueamiento de ruido). De esta forma, el ruido tiene varianza unitaria y no tiene correlaciones de banda a banda.
 
-* Realizar un estándar Transformación de PCA a los datos blanqueados por ruido.
+2) Realizar un estándar Transformación de PCA a los datos blanqueados por ruido.
+
+
+
+
+
+
 
 
 METODOLOGIA
