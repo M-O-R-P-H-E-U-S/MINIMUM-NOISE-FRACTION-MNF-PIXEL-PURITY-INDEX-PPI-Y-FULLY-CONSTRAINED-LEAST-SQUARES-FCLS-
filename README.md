@@ -1,4 +1,4 @@
-Minimum-Noise-Fraction-MNF-Pixel-Purity-Index-PPI-y-Support-Vector-Machine-SVM-
+Minimum Noise Fraction(MNF), Pixel Purity Index(PPI) y Fully Constrained Least Squares(FCLS) para la extracción y clasificación de endmembers, en el estudio de Imágenes Hiperespectrales.
 -----
 
 Abstract
