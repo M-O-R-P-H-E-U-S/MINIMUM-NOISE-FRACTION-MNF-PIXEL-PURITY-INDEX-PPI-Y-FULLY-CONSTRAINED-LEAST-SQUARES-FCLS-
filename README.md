@@ -182,6 +182,19 @@ Fully Constrained Least Squares(FCLS)
 
 ![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/mean_end_manzana.jpg)
 
+
+
+|      Componente    |  Número de Pixeles  |
+| ------------------ | ------------------- |
+|      Componente 1  |         3           |   
+|      Componente 2  |         3010        |  
+|      Componente 3  |         55          |    
+|      Componente 4  |         13277       |   
+|      Componente 5  |         12987       |   
+|      Componente 6  |         3598        |
+
+
+
 DISCUSIÓN DE RESULTADOS
 -----
 
