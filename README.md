@@ -202,7 +202,7 @@ DISCUSIÓN DE RESULTADOS
 
 
 
-
+![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/espectro_pro.jpg)
 
 
 |Componente   |  Nombre         | Número de Endmember | 
