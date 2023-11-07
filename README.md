@@ -139,14 +139,36 @@ DETECCIÓN DE ENDMEMBERS
 |      10         |          937.51        |  
 
 
+![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/espec_norm.png)
+
+![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/mapa_datos_manzana.jpg)
+
+
 Minimum Noise Fraction(MNF)
 -----
 
+![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/mnf_manzana.jpg)
+
+![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/CP_mnf_manzana.jpg)
+
+
+|    Número de CP    |  Varianza  |
+| ------------------ | ---------- |
+|      CP 1          | 8.7378e-07 |   
+|      CP 2          | 3.1030e-08 |  
+|      CP 3          | 1.1267e-07 |    
+|      CP 4          | 1.0859e-07 |   
+|      CP 5          | 3.1810e-08 |   
+|      CP 6          | 1.9613e-07 |
 
 
 
 Pixel Purity Index(PPI)
 -----
+
+![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/ppi_manzana.jpg)
+
+
 
 
 CLASIFICACIÓN DE ENDMEMBERS
@@ -156,7 +178,9 @@ CLASIFICACIÓN DE ENDMEMBERS
 Fully Constrained Least Squares(FCLS)
 -----
 
+![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/abu_fcls_manzana.jpg)
 
+![espec_norm](https://github.com/M-O-R-P-H-E-U-S/MINIMUM-NOISE-FRACTION-MNF-PIXEL-PURITY-INDEX-PPI-Y-FULLY-CONSTRAINED-LEAST-SQUARES-FCLS-/blob/main/mean_end_manzana.jpg)
 
 DISCUSIÓN DE RESULTADOS
 -----
