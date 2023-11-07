@@ -111,9 +111,9 @@ A continuación se muestra la imagen en falso color de la manzana mostrando con 
 
 El presente articulo se divide en dos partes:
 
-*   ** Primera Parte - Detección de Endmembers: ** Analizamos las dimensiones espectrales y espaciales de las imágenes hiper-espectrales. De Minimum Noise Fraction(MNF) reducimos su dimensión espectral y de Pixel Purity Index(PPI) una reducción espacial. Recordando que MNF es un PCA, pero con la matriz de ruido redefinida. Podemos usar los primeros componentes principales para determinar el rango de los primeros redundantes. Dado que PPI proyecta cada píxel en un vector de un conjunto de vectores aleatorios(skewers) que pertenecen al espacio de reflectancia. Dichos píxeles reciben una puntuación cuando representan un extremo de todas las proyecciones. Los píxeles con las puntuaciones más altas son considerado espectralmente puro. Dándonos un nuevo conjunto de grupos dispersos.
+** Primera Parte - Detección de Endmembers: ** Analizamos las dimensiones espectrales y espaciales de las imágenes hiper-espectrales. De Minimum Noise Fraction(MNF) reducimos su dimensión espectral y de Pixel Purity Index(PPI) una reducción espacial. Recordando que MNF es un PCA, pero con la matriz de ruido redefinida. Podemos usar los primeros componentes principales para determinar el rango de los primeros redundantes. Dado que PPI proyecta cada píxel en un vector de un conjunto de vectores aleatorios(skewers) que pertenecen al espacio de reflectancia. Dichos píxeles reciben una puntuación cuando representan un extremo de todas las proyecciones. Los píxeles con las puntuaciones más altas son considerado espectralmente puro. Dándonos un nuevo conjunto de grupos dispersos.
 
-* ** Segunda parte - Clasificación de Endmembers: ** Con el nuevo conjunto de datos, pero de grupos diversos.
+** Segunda parte - Clasificación de Endmembers: ** Con el nuevo conjunto de datos, pero de grupos diversos.
 Elaboramos nuestro algoritmo de Fully Constrained Least Squares(FCLS) para clasificar estos endmembers segun la ubicación y cantidad de píxeles que se distinguen en el mapa de abundancia, y grupos que reconocemos de la imagen hiper-espectral.
 
 
